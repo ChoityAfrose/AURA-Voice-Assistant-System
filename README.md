@@ -68,11 +68,7 @@ Designed as a personal productivity companion, **AURA** can open applications, b
    ```bash
    python aura.py
    ```
-5. For exe file conversion
 
-    ```bash
-   pip install pyinstaller
-   ```
 
 ## 👨‍💻 Author
 

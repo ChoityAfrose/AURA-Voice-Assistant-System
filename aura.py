@@ -2,15 +2,14 @@ import speech_recognition as sr     # For listening to user voice and converting
 import pyttsx3                      # For text-to-speech, makes AURA speak out responses
 import logging                      # For logging errors, events, and debugging              
 import os                           # For interacting with the operating system (open files,run commands)
-import sys
 import datetime                     # For getting current date and time
 import wikipedia                    # For fetching summaries and information from Wikipedia
 import webbrowser                   # For opening URLs in the default web browser
 import random                       # For selecting random jokes, music, responses, etc.
 import subprocess                   # For running external applications and system-level commands
-import pyautogui
-import pygetwindow as gw
-import google.generativeai as genai 
+import pyautogui                    # Controls keyboard, mouse, screenshots, window actions
+import pygetwindow as gw            # Gets and manages windows (minimize, maximize, restore)
+import google.generativeai as genai # Connects Aura to Google Gemini AI models
 
 # Logging Configuration 
 
